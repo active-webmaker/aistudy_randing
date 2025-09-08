@@ -302,8 +302,6 @@ with meta_tab:
     zep = section_from_md(md, "#### 제페토 (ZEPETO)", ["---", "### ", "## "]) or ""
     st.markdown("### 🌐 메타버스 & 크리에이티브 도구")
     st.markdown(meta)
-    st.markdown("#### 제페토 (ZEPETO)")
-    st.markdown(zep)
     st.markdown("<br>", unsafe_allow_html=True)
 
 # Operating principles
